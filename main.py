@@ -41,7 +41,7 @@ async def on_message(message):
 
     if channel == "autistic-zaza-memes" and username == "psa_inspector":
         for word in user_message.lower().split(" "):
-            if word in ['money', 'net', 'figures', 'poorer']:
+            if word in ['money', 'net', 'figures', 'poorer', 'salary']:
                 await message.reply("LOL I make your networth in an hour, broke ass smelly indian.")
                 return
 
